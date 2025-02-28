@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter by CVE ID</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Filter CVEs by ID</h1>
+
+    <form id="filter-form">
+        <label for="cveId">CVE ID:</label>
+        <input type="text" id="cveId" name="cveId" placeholder="e.g., CVE-2022-12345" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script src="filterScriptById.js"></script>
+</body>
+</html>
